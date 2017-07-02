@@ -54,7 +54,7 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 9pt;
+	font-size: 11.5pt;
 	line-height: 1.35em;
 	font-family: "Open sans", sans-serif;
 	/*margin-top: 1em;
@@ -78,7 +78,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -19%;
 }
 
 
@@ -128,7 +128,7 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: #a00;
 	margin-top: 1em;
 	margin-top: 1em;
@@ -235,4 +235,15 @@ strong {
 
 #my-inline-urls a {
 	text-decoration: none;
+}
+
+.italic{
+	font-style:italic;
+}
+
+.pagebreak { page-break-before: always; }
+
+sup { 
+    vertical-align: super;
+    font-size: smaller;
 }
